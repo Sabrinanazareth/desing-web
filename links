@@ -6,8 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
-<h1> Staykidsがメガトン</h1>
+    <a href="#ms"><p>MUSICA</p></a>
+    <a href="#ms2"><p>MUSICA -2</p></a>
+    <a href="#ms3"><p>MUSICA -3</p></a>
+    <a href="#ms0"> <p>【動画】Straykids</p></a>
+    <center>
+<h1 id="ms0"> Staykidsがメガトン</h1>
 <a href="https://news.yahoo.co.jp/articles/68b7bfa5dd408a962091db9a225bc605ee3f9d73"> <img src="T:\sabrina\vs\image\tumblr_e8ae3067beecf4577e19bbd1b381b3e2_30a98a97_540.jpg" alt=""> </a>
 
     <p><jp>Stray Kidsがメガトン級のカムバックを予告した。
@@ -23,6 +27,7 @@
         Stray Kidsは2022年3月の「ODDINARY」、10月の「MAXIDENT」、2023年6月の「★★★★★（5-STAR）」の3作をアメリカ「ビルボード200」1位にランクインさせ、存在感を見せつけた。今年7月には、K-POP初の「ロラパルーザ・パリ（Lollapalooza Paris）」のヘッドライナーとして6万人余りの観客を熱狂させた。9月にはアメリカ・ニューヨークのプルデンシャル・センターで開催された「2023 MTV Video Music Awards（VMAs）」に初出演し、3rdフルアルバムのタイトル曲「S-Class」で「ベストK-POP」部門のトロフィーを手にした。その後、バンチャン、チャンビン、ハンで構成されたグループ内のプロデュースチーム3RACHAが、ニューヨーク・セントラルパークで開かれた「2023 Global Citizen Festival」に出演し、存在感をアピールした。
         
         その勢いに乗って、K-POP第4世代ボーイズグループ初となる韓国と日本の5都市で計10回の大規模ドームツアーを決定し、全席完売を記録した「5-STAR Dome Tour 2023」を盛況裏に展開している。日本では福岡PayPayドームを皮切りにバンテリンドーム ナゴヤ、京セラドーム大阪での公演を終え、10月21日と22日にソウル高尺（コチョク）スカイドーム公演、28日と29日に東京ドーム公演でフィナーレを飾る。</p></jp>
+    </center>
     <a href="#ms"><p>MUSICA</p></a>
     <a href="#ms2"><p>MUSICA -2</p></a>
     <a href="#ms3"><p>MUSICA -3</p></a>
@@ -100,7 +105,7 @@
                     Bem-vindo ao megaverso quente de Stray Kids</p>
         <br>
         <center>
-            <a href="link.html">Voltar </a>
+            <a href="#ms0">Voltar </a>
         </center>
 </body>
 </html>
