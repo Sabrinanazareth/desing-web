@@ -1,2 +1,2 @@
 # desing-web
-trabalhando html e css3
+trabalhando html, css3 e Javascript 
