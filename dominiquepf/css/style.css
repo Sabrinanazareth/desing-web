@@ -1,0 +1,127 @@
+*{
+    margin: 10; /* margem externa */
+    padding: 0; /*magem do conteúdo apartir da tag*/
+    box-sizing: border-box; /*indica que o tamanho agora levará 
+   em conta até a borda */
+    text-decoration: none; /
+   }
+  
+   body{
+    font-size: 100%;
+    background:linear-gradient(68.55deg, #E9FFF9 65.50%, 
+   #a1f1d3 94.50%);
+    color: blue; /*Aplicando color direto no body ele irá aplicar 
+   somente nas fontes*/
+    font-family: poppinsregular; /* Atribuindo a fonte descrita 
+   no arquivo fonts.css*/
+    max-width: 1280px; /*Tamanho da página para zoom vs 
+   monitor* Obs: testar com scroll do mouse*/
+    margin: 0 auto; 
+    padding: 20px; 
+   }
+ 
+ header{
+  display: flex; 
+  flex-direction: row;
+  justify-content:space-between; 
+ align-items: center; 
+}
+#logo_title{
+ flex-direction: column; 
+ line-height: 30px; 
+}
+h1{
+ font-weight:100;
+}
+
+li{
+ display: inline-block;
+ margin: 20px}
+ a{
+    font-family: poppinsblack;
+    color: rgb(58, 28, 194);
+   }
+   a:hover{
+    color: rgb(97, 245, 220);
+    transition: 0.2s all;
+   }
+   #t_conosco{
+    border: 3px solid;
+    padding: 10px;
+    border-radius: 15px;
+   }
+   #t_conosco:hover{
+    background-color: blue;
+    color: rgb(97, 245, 220);
+    border-color: blue;
+   }
+   main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+   }
+   h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-family: poppinsbold;
+   }
+   #h2_chamado{
+    color: rgb(66, 247, 217);
+    font-size: 40;
+    font-family: poppinsbold;
+   }
+   p{
+    line-height: 20px;
+    max-width: 500px;
+    padding-top: 40px;
+   }
+   img{
+    width: 580px;
+    padding-right: 0;
+   }
+   form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-color: blue;
+   }
+   form [type="submit"]{
+    color:rgb(97, 245, 220);
+    font-family: poppinsregular;
+    height: 20px;
+    width: 60%;
+    background-color: blue;
+    padding: 5px 10px 35px 10px;
+   }
+   input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 20px;
+   }   
+   @font-face {
+    font-family:poppinsblack ;
+    src: url(/dominiquepf/fonts/Poppins/Poppins-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+   }
+   @font-face {
+    font-family:poppinslight ;
+    src: url(/dominiquepf/fonts/Poppins/Poppins-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+   }
+   @font-face {
+    font-family:poppinsregular ;
+    src: url(/dominiquepf/fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+   }
+   @font-face {
+    font-family:poppinsbold ;
+    src: url(/dominiquepf/fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+   }
+   
